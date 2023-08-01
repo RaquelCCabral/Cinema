@@ -1,0 +1,65 @@
+body {
+    background-color:  rgb(13, 1, 39);
+    margin: 0;
+    color: white;
+}
+
+header {
+    padding: 10px;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#btn_open {
+    cursor: pointer;
+    transition: all 0.5s;
+    display: flex;
+    justify-content: left;
+}
+
+#btn_open:hover {
+    cursor: pointer;
+}
+
+#btn_close{
+    padding: 10px;
+}
+
+.menu {
+    position: fixed;
+    top: 0;
+    width: 250px;
+    height: 100%;
+    background-color: black;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu ul li {
+    display: block;
+}
+
+.menu ul li a {
+    transition: background 0.3s;
+    display: block;
+    color: white;
+    font-size: 19px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 15px;
+}
+
+.effect {
+    transition: margin 0.4s;
+}

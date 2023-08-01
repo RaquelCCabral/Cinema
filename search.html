@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search</title>
+    <link rel="preload" href="menu.css" as="style">
+    <link rel="preload" href="menu.js" as="script">
+    <link rel = 'stylesheet' href = 'menu.css'>
+    <link rel = 'stylesheet' href = 'style.css'>
+</head>
+<body>
+    <header>
+        <img src="menu.png" id="btn_open">
+    </header>
+
+    <div class="container">
+        <input type = 'text' placeholder = "O que você busca?" id = 'search'>
+        <button id="button" onclick="search();"><img id="lupa" src="lupa.png" width="25px" height="20px"></button>
+    </div>
+
+    <div id="movie"></div>
+
+    <div id="menu" class="menu effect" style="margin-left: -250px;">
+        <nav>
+            <div style="text-align: right;">
+                <img src="menu.png" id="btn_close">
+            </div>
+            <ul>
+                <li><a href="inicio.html">Início</a></li>
+                <li><a href="filmes.html">Filmes</a></li>
+                <li><a href="series.html">Séries</a></li>
+                <li><a href="search.html">Buscar</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <script src="search.js"></script>
+    <script src="menu.js"></script>
+</body>
+</html>

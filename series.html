@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Series</title>
+    <link rel="preload" href="menu.css" as="style">
+    <link rel="preload" href="menu.js" as="script">
+    <link rel = 'stylesheet' href = 'menu.css'>
+    <link rel = 'stylesheet' href = 'style.css'>
+</head>
+<body>
+    <header>
+        <img src="menu.png" id="btn_open">
+    </header>
+
+    <h1>SÉRIES</h1>
+
+    <div id="movie"></div>
+
+    <div id="menu" class="menu effect" style="margin-left: -250px;">
+        <nav>
+            <div style="text-align: right;">
+                <img src="menu.png" id="btn_close">
+            </div>
+            <ul>
+                <li><a href="inicio.html">Início</a></li>
+                <li><a href="filmes.html">Filmes</a></li>
+                <li><a href="series.html">Séries</a></li>
+                <li><a href="search.html">Buscar</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="page" id = "pages">
+        <button class="button_page" id = "page1">1</button>
+        <button class="button_page" id = "page2">2</button>
+        <button class="button_page" id = "page3">3</button>
+        <button class="button_page" id = "page4">4</button>
+        <button class="button_page" id = "page5">5</button>
+    </div>
+
+    <script src="series.js"></script>
+    <script src="menu.js"></script>
+</body>
+</html>
